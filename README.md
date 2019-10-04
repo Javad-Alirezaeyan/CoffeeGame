@@ -37,8 +37,10 @@ The applications save the information of each game in the local storage, includi
  
  - React
  - PWA 
+ - Service Worker
  - Style-Component
  - Html, CSS3
+ - CacheAPI, Local Storage
  
 ## Requirement
 
