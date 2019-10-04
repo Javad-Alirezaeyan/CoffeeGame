@@ -42,7 +42,7 @@ To build for production
 ## Building
 Screen shots
 
-![alt text](https://raw.githubusercontent.com/Javad-Alirezaeyan/CoffeeGame/screenshot/1.png)
-![alt text](https://raw.githubusercontent.com/Javad-Alirezaeyan/CoffeeGame/screenshot/2.png)
+![alt text](https://github.com/Javad-Alirezaeyan/CoffeeGame/blob/master/screenshot/1.png)
+![alt text](https://github.com/Javad-Alirezaeyan/CoffeeGame/blob/master/screenshot/2.png)
 ![alt text](https://raw.githubusercontent.com/Javad-Alirezaeyan/CoffeeGame/screenshot/3.png)
 ![alt text](https://raw.githubusercontent.com/Javad-Alirezaeyan/CoffeeGame/screenshot/4.png)
