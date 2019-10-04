@@ -1,0 +1,16 @@
+{
+  "name": "Coffee Game",
+  "description": "This application is implemented for duco tools",
+  "short_name": "CGame",
+  "background_color": "#224499",
+  "theme_color": "#ddd222",
+  "start_url": "/index.html",
+  "scope": ".",
+  "orientation": "portrait-primary",
+  "display": "standalone",
+  "author": "Javad",
+  "licence": "MIT",
+
+  "dir": "ltr",
+  "lang": "en-us"
+}
