@@ -25,6 +25,20 @@ The applications save the information of each game in the local storage, includi
  
  - User can integrate with the application with some buttons including Setting, Pause, Resume, Retry, Start, Reset
  
+ - The count of cups must be a number between 1 and 8, if the users want to set a number out of this range, they receive 
+ a warning. This range can be customized in the constant file in this path: "./src/lib/constant.js"
+ 
+ - There is a simple algorithm to fill the cups over time. The algorithm is run each one and half seconds, then choose a
+  number to determine(for example k) how many the cups must be changed. Next, it randomly choose k-cups for incrementing
+   value of the cups. If there is more cups, algorithm sets a bigger number in k variable.
+ 
+ 
+ ### Technology
+ 
+ - React
+ - PWA 
+ - Style-Component
+ - Html, CSS3
  
 ## Requirement
 
@@ -59,14 +73,14 @@ To build for production
 * first remove the folders `dist` and `.cache`
 * then run: `npm run build`
 
-## Building
-Screen shots
+## Screen shots
 
 ![alt text](https://github.com/Javad-Alirezaeyan/CoffeeGame/blob/master/screenshot/1.png)
 
 
 ![alt text](https://github.com/Javad-Alirezaeyan/CoffeeGame/blob/master/screenshot/2.png)
 
+![alt text](https://github.com/Javad-Alirezaeyan/CoffeeGame/blob/master/screenshot/6.png)
 
 ![alt text](https://github.com/Javad-Alirezaeyan/CoffeeGame/blob/master/screenshot/3.png)
 
