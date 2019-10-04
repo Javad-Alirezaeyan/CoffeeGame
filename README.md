@@ -38,3 +38,11 @@ To build for production
 
 * first remove the folders `dist` and `.cache`
 * then run: `npm run build`
+
+## Building
+Screen shots
+
+![alt text](https://raw.githubusercontent.com/Javad-Alirezaeyan/CoffeeGame/screenshot/1.png)
+![alt text](https://raw.githubusercontent.com/Javad-Alirezaeyan/CoffeeGame/screenshot/2.png)
+![alt text](https://raw.githubusercontent.com/Javad-Alirezaeyan/CoffeeGame/screenshot/3.png)
+![alt text](https://raw.githubusercontent.com/Javad-Alirezaeyan/CoffeeGame/screenshot/4.png)
