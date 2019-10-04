@@ -3,9 +3,29 @@
 CoffeGame  is a game that the user play with cups. To start the user must set the count of cups in the game,
 then starts the game. 
 
-This application have been implemented by a react library and PWA. You can see the online version here:
+This application has been implemented by a react library and PWA. You can see the online version here:
+ <a href="http://coffeegame.ramanpardaz.com">http://coffeegame.ramanpardaz.com</a>
 
+<b style="color:red">Note:</b> the above link works with http, so service worker doesnt work with it
 
+### Details
+
+The applications save the information of each game in the local storage, including:
+
+- high score is stored
+- paused game: if the user pauses the game, all data of the game are stored in the storage. So when the user reloads the page later, the application retrieves the information of the game and the user can continue the game.
+ 
+- After a game is ended, the information is saved in the local storage, so we always have a history of all games.
+ 
+ - Users can work with the application both online and offline. In this application, files saved in the local with CacheAPI. 
+ A service worker has been implemented to do it.
+ 
+ - Showing a message to the user when the users can enhance their records. A  component  has been implemented to show messages 
+ to the users when they are playing
+ 
+ - User can integrate with the application with some buttons including Setting, Pause, Resume, Retry, Start, Reset
+ 
+ 
 ## Requirement
 
 - npm
