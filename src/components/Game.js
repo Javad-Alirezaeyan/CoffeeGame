@@ -327,7 +327,7 @@ export default class Game extends Component {
             this.state.setting = false;
             this.state.defaultStopWatch = parseInt(window.localStorage.getItem("time"));
             this.state.startWatch = false;
-            this.cupCount = window.localStorage.getItem("cupCount");
+            this.cupCount = parseInt(window.localStorage.getItem("cupCount"));
             this.removeOldGame();
 
             return true;
